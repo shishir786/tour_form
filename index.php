@@ -70,7 +70,7 @@ if (isset($_POST['name'])) {
             <input type="text" name="gender" id="gender" placeholder="Enter your Gender" />
             <input type="text" name="email" id="email" placeholder="Enter your Email" />
             <input type="text" name="phone" id="phone" placeholder="Enter your Phone Number" />
-            <textarea name="other" id="other" placeholder="Enter Any other Information here"></textarea>
+            <textarea name="other" id="other" placeholder="Enter others Information here"></textarea>
             <button class="btn">Submit</button>
 
 
