@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2024 at 07:09 PM
+-- Generation Time: Dec 14, 2024 at 06:30 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -45,7 +45,15 @@ CREATE TABLE `tour` (
 INSERT INTO `tour` (`sl`, `name`, `age`, `gender`, `email`, `phone`, `other`, `date`) VALUES
 (1, 'DS', 24, 'male', 'ds@ds.com', '45614435463', 'No', '2024-11-03 21:26:35'),
 (2, 'Abdullah Shishir', 23, 'male', 'abdullah.shishir19', '01124324904', 'dfg ', '2024-11-03 23:58:49'),
-(3, 'Abdullah Shishir', 23, 'male', 'abdullah.shishir19', '01124324904', 'dfg ', '2024-11-04 00:00:44');
+(3, 'Abdullah Shishir', 23, 'male', 'abdullah.shishir19', '01124324904', 'dfg ', '2024-11-04 00:00:44'),
+(4, 'Abdullah Shishir', 23, 'male', 'abdullah.shishir19', '01124324904', 'dfg ', '2024-11-04 00:10:36'),
+(5, 'js', 15, 'male', 'hgfhf', '01000000', 'yo yo', '2024-11-04 00:11:14'),
+(6, 'js', 15, 'male', 'hgfhf', '01000000', 'yo yo', '2024-11-04 00:11:32'),
+(7, 'js', 15, 'male', 'hgfhf', '01000000', 'yo yo', '2024-11-04 00:11:35'),
+(8, '', 0, '', '', '', '', '2024-12-14 23:21:13'),
+(9, 'Abdullah Shishir', 23, 'male', 'akou873@outlook.com', '01124324904', 'Yo', '2024-12-14 23:25:43'),
+(10, 'Abdullah Shishir', 23, 'male', 'akou873@outlook.com', '01124324904', 'Yo', '2024-12-14 23:27:40'),
+(11, 'Abdullah Shishir', 23, 'male', 'akou873@outlook.com', '01124324904', 'Yo', '2024-12-14 23:28:56');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +73,7 @@ ALTER TABLE `tour`
 -- AUTO_INCREMENT for table `tour`
 --
 ALTER TABLE `tour`
-  MODIFY `sl` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `sl` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
